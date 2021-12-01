@@ -1,7 +1,14 @@
-<!-- Projeto Portifolio-->
+# Projeto Portifolio
 
-Alterações em aula, vou acrescentar algo fora da aula
+Portifolio do desenvolvedor
 
-Estou subindo pro github pra visualização do pessoal
+## Tarefas
 
-Estou com algumas dificuldades nas alterações que e Kai faz em aula
+O controle das tarefas desse projeto será realizado no GitHub
+
+## Ícones
+
+- :package: nova funcionalidade
+- :up: atualização
+- :beetle: correção do css
+- :checkered_flag: release
