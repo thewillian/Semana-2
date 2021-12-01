@@ -42,13 +42,13 @@
                 <h5>Front-End Developer</h5>
             </div>
 
-            <div id="arrow">
-                <i class="fas fa-sort-down"></i></i>
+            <div onclick="displayAbout" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i></i>
             </div>
 
-            <div id="about">
+            <div style="display: none;" id="about">
                 <p>
-                    Olá!Me chamo Willian Monteiro, conhecido como main.Esse é o primeiro de muitos projetos em HTML e CSS, 
+                    Olá! Me chamo Willian Monteiro, conhecido como main. Esse é o primeiro de muitos projetos em HTML e CSS, 
                     estou cursando NanoDegree para desenvolvimento Full Stack na Gama Academy
                 </p>
             </div>
@@ -64,5 +64,15 @@
             </div>
         </section>
     </main>
+
+    <script>
+       function displayabout() {
+        var arrow = document.getElementById('animation');
+        arrow.classList.toggle('rotate')
+        var display = document.getElementById('about');
+        display.classList.toggle('active')
+        }
+    </script>
+
 </body>
 </html>
