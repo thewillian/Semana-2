@@ -42,8 +42,8 @@
                 <h5>Front-End Developer</h5>
             </div>
 
-            <div onclick="displayAbout" id="arrow">
-                <i id="animation" class="fas fa-sort-down"></i></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
             </div>
 
             <div style="display: none;" id="about">
@@ -66,7 +66,7 @@
     </main>
 
     <script>
-       function displayabout() {
+       function displayAbout() {
         var arrow = document.getElementById('animation');
         arrow.classList.toggle('rotate')
         var display = document.getElementById('about');
